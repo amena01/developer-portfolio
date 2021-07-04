@@ -24,14 +24,14 @@ body{font-family: 'Poppins', sans-serif;
      border-radius: 10px;
   }
   .top-banner{
-     background-image: url(project/images/.top-banner);
+     background-image: url(/images/top-banner.png);
      background-repeat: no-repeat;
   }
   section{
      display: flex;
      margin-bottom: 100px;}
      .Dream-big{
-        background-image: url(project/images/.Dream-big);
+        background-image: url(/images/dream-bg.png);
         background-repeat: no-repeat;
         background-position: right;
      }
@@ -42,9 +42,12 @@ body{font-family: 'Poppins', sans-serif;
         color:tomato;
      }
      .experience-area{
-        background-image: url(Desktop/project/images/exp-bg.png);
+        display: flex;
+     }
+
+     .bg-banner{
+        background-image: url(.//images/exp-bg.png);
         background-repeat: no-repeat;
-        background :left;
      }
      .experience-item{
       width: 40%;
