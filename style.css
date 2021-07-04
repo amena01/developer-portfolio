@@ -15,7 +15,7 @@ body{font-family: 'Poppins', sans-serif;
      padding-left: 07%;
   }
   .half-width img{
-     width:80%
+     width:100%
   }
   .link-button{
      text-decoration: none;
@@ -24,7 +24,20 @@ body{font-family: 'Poppins', sans-serif;
      border-radius: 10px;
   }
   .top-banner{
-     background-image: url(file:///Users/aurpita/Desktop/project/images/top-banner.png);
+     background-image: url(project/images/.top-banner);
      background-repeat: no-repeat;
   }
+  section{
+     display: flex;
+     margin-bottom: 100px;}
+     .Dream-big{
+        background-image: url(project/images/.Dream-big);
+        background-repeat: no-repeat;
+        background-position: right;
+     }
+
+
+   
   
+
+
