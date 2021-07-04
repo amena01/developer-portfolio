@@ -35,7 +35,41 @@ body{font-family: 'Poppins', sans-serif;
         background-repeat: no-repeat;
         background-position: right;
      }
-
+     .blue-color{
+        color:blue;
+     }
+     .tomato-color{
+        color:tomato;
+     }
+     .experience-area{
+        background-image: url(Desktop/project/images/exp-bg.png);
+        background-repeat: no-repeat;
+        background :left;
+     }
+     .experience-item{
+      width: 40%;
+      margin-left: 5%;
+      margin-right: 5%;
+      padding: 10px 20px;
+      border-left: 10px solid;
+      border-radius: 10px;
+      box-shadow:10px 10px 40px  rgb(212, 135, 162)
+      
+     }
+     #web-dev-exp-2{
+        border-left: 7px solid;
+        border-image: linear-gradient(tomato, orange);
+        border-image-slice: 1;
+     }
+     #web-dev-exp{
+        border-left: 7px solid;
+        border-image: linear-gradient(blue, cyan);
+        border-image-slice:1;
+     }
+     footer p 
+     {
+        text-align: center
+     }
 
    
   
